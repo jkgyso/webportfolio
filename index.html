@@ -17,11 +17,11 @@
 <body>
 
 	<div id="navbar">
-		<nav id="navbar-container" class="navbar navbar-expand-lg navbar-expand-md">
+		<nav id="navbar-container" class="navbar navbar-expand-lg">
 			<div class="container-fluid align-text-center">
-					<a id="logo"class="navbar-brand" href="#"><img src="./images/logo.png" class="img-fluid rounded-circle w-25 d-none d-sm-block"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+					<a id="logo"class="navbar-brand" href="#navbar"><img src="./images/logo.png" class="img-fluid rounded-circle w-25 d-none d-sm-block"></a>
+				<button class="navbar-toggler d-md-none order-first" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<img src="./images/logo.png" alt="Toggle Navigation" class="custom-navbar-toggler w-25 h-25">
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav ml-auto">
@@ -55,14 +55,17 @@
 	</div>
 
 	<div id="landing">
-		<div class="container-fluid py-5" id="background">
-			<div class="row justify-content-left ml-sm-2 pl-sm-2 ml-md-5 pl-md-5 py-5 my-5">
-				<div class="col-md-6 pt-md-5 text-left" id="landing-text">
-					<h1 id="title">JOANNE GAYASO</h1>
-					<h3 class="my-5">FULL STACK WEB DEVELOPER</h3>
-				</div>
-			</div>
-		</div>
+	    <div class="container-fluid py-5" id="background">
+	        <div class="row justify-content-left ml-sm-2 pl-sm-2 ml-md-5 pl-md-5 py-5 my-5">
+	            <div class="col-md-6 pt-md-5 text-left" id="landing-text">
+	                <h1 id="title">JOANNE GAYASO</h1>
+	                <h3 class="my-5">FULL STACK WEB DEVELOPER</h3>
+	            </div>
+	            <div class="col-md-6 pt-md-5">
+	                <img src="./images/bg2.jpg" class="img-fluid" id="bg2">
+	            </div>
+	        </div>
+	    </div>
 	</div>
 
 	<div id="about-me">
@@ -81,8 +84,8 @@
 	</div>
 
 	<div id="projects">
-	    <div class="container-fluid text-center mx-auto pt-5 pb-5" id="projheader">
-	        <h2>PROJECTS</h2>
+		<h2 id="proj" class="text-center pb-1 pt-5">PROJECTS</h2>
+	    <div class="container-fluid text-center mx-auto pt-2 pb-5" id="projheader">
 	        <div class="row pt-5 pb-5">
 	            <div class="col-sm-12 col-md-4 col-lg-4">
 	                <div class="card project-cards h-100">
@@ -161,8 +164,8 @@
 	<div id="contact">
 		<div class="container-fluid text-center mx-auto pt-5 pb-5" id="contact-icons">
 			<h2>CONTACT</h2>
-			<div class="row justify-content-center pt-5 pb-5">
-				<div class="col-3 col-md-1 col-lg-1">
+			<div class="row justify-content-center">
+				<div class="col-3 col-md-1 col-lg-1 pt-2 pb-2">
 					<a href="https://www.facebook.com/jkgayaso/"><img src="./images/Facebook.png" class="img-fluid"></a>
 					
 				</div>
@@ -241,7 +244,7 @@
 	</div>
 
 	<footer class="d-flex py-2 justify-content-center" id="footer">
-		<div class="p-1">2023</div>
+		<div class="p-1">2024</div>
 		<div class="p-1">|</div>
 		<div class="p-1">All rights reserved.</div>
 	</footer>
