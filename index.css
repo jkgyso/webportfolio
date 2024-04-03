@@ -1,0 +1,165 @@
+#navbar-container {
+	background: #1A1E23 !important;
+}
+
+.navbar-nav .nav-link img {
+	filter: brightness(0) invert(1);
+}
+
+.navbar-nav .nav-link {
+	color: #12F7D6 !important;
+	font-family: Roboto, sans-serif;
+}
+
+
+#background {
+	background: url('./images/landing.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#title {
+	font-family: Roboto, sans-serif;
+	font-size: 64px;
+	font-weight: 600;
+	line-height: 72px;
+	letter-spacing: -0.02em;
+	color: #12F7D6;
+}
+
+#landing-text > h3 {
+	font-family: Roboto, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	color: white;
+}
+
+#about-header {
+	padding: 10px 20px; 
+	background-color: #43454D; 
+	color: white; 
+	border: none;
+	border-radius: 25px;
+}
+
+#about-text {
+	font-family: Roboto, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #98FAEC;
+}
+
+#about-me {
+	background: #1A1E23;
+}
+
+#projects {
+	background: #292F36;
+}
+
+#projheader > h2 {
+	padding: 10px 20px; 
+	background-color: #43454D; 
+	color: white; 
+	border: none;
+	border-radius: 25px;
+	font-family: Roboto, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	color: white;
+}
+
+.project-cards {
+	background-color: black;
+	color: #12F7D6;
+}
+
+#tools {
+	background: #1A1E23;
+}
+
+#toolsheader > h2 {
+	padding: 10px 20px; 
+	background-color: #43454D; 
+	color: white; 
+	border: none;
+	border-radius: 25px;
+	font-family: Roboto, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	color: white;
+}
+
+#front-end {
+	font-family: Roboto, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #12F7D6;
+}
+
+#mern {
+	font-family: Roboto, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #12F7D6;
+}
+
+#contact-icons	{
+	background: #292F36;
+}
+
+#contact-icons > h2 {
+	padding: 10px 20px; 
+	background-color: #43454D; 
+	color: white; 
+	border: none;
+	border-radius: 25px;
+	font-family: Roboto, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	color: white;
+}
+
+#contact-form {
+	background: #1A1E23;
+}
+
+#visit {
+	font-family: Roboto, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #12F7D6;
+}
+
+#message {
+	font-family: Roboto, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #12F7D6;
+}
+
+#submit-button {
+	background-color: #43454D;
+	color: #12F7D6;
+	border: none;
+	border-radius: 25px;
+
+}
+
+#footer	{
+	font-family: Roboto, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #12F7D6;
+	background: #292F36;
+}
